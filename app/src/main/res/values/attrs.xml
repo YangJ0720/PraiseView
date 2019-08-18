@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- PraiseIconView -->
+    <declare-styleable name="PraiseIconView">
+        <!-- 点击光波效果颜色 -->
+        <attr name="circleColor" format="color"/>
+        <!-- 未选中显示的图片 -->
+        <attr name="bitmapNormal" format="reference"/>
+        <!-- 选中显示的图片 -->
+        <attr name="bitmapPressed" format="reference"/>
+    </declare-styleable>
+
+    <!-- PraiseTextView -->
+    <declare-styleable name="PraiseTextView">
+        <!-- 字体大小 -->
+        <attr name="textSize" format="dimension"/>
+        <!-- 字体颜色 -->
+        <attr name="textColor" format="reference"/>
+    </declare-styleable>
+
+</resources>
